@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048 蒟蒻wjr————一个爱好用c++和python coding的蒟蒻</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">合并两个数字到 <strong>2048</strong></p>
+      <a class="restart-button">新游戏</a>
+    </div>
+    <p></p>
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">如何玩耍:</strong> 使用你的 <strong>方向键</strong> 来移动方块。 当两个方块相同时, 它们 <strong>合并到一起！</strong>
+      <p>Waiting-----------------------------------------------------------------2</p>
+      <p>Juding------------------------------------------------------------------4</p>
+      <p>CE----------------------------------------------------------------------8</p>
+      <p>UKE---------------------------------------------------------------------16</p>
+      <p>RE----------------------------------------------------------------------32</p>
+      <p>TLE---------------------------------------------------------------------64</p>
+      <p>MLE---------------------------------------------------------------------128</p>
+      <p>WA----------------------------------------------------------------------256</p>
+      <p>PC----------------------------------------------------------------------512</p>
+      <p>AC----------------------------------------------------------------------1024</p>
+      <p>AK---------------------------------------------------------------------2048</p>    
+      
+    </p>
+    <hr>
+    <p>
+    <strong class="important">我的博客:</strong> 欢迎来到我的博客 <a href="https://wangjunrui666.github.io">蒟蒻wjr————一个爱好用c++和python coding的蒟蒻</a>     </p>
+    <hr/>
+
+  </div>
+
+  <script src="bind_polyfill.js"></script>
+  <script src="classlist_polyfill.js"></script>
+  <script src="animframe_polyfill.js"></script>
+  <script src="keyboard_input_manager.js"></script>
+  <script src="html_actuator.js"></script>
+  <script src="grid.js"></script>
+  <script src="tile.js"></script>
+  <script src="local_storage_manager.js"></script>
+  <script src="game_manager.js"></script>
+  <script src="application.js"></script>
+</body>
+</html>
