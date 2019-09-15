@@ -23,7 +23,7 @@ date: 2019-08-07 13:27:41
 
 ------------
 
-## [蒟蒻的blog](https://wangjunrui666.github.io)
+## [蒟蒻的blog](https://wangjunrui.netlify.com/)
 
 
 [![](https://www.luogu.org/images/congratulation.png)](http://lvmaojun.com/huaji/)
