@@ -133,7 +133,7 @@ footer:
     title: "博客推荐"
     children:
       - 
-        name: "CTJ's Blog - 一个Coding爱好者的博客"
+        name: "CTJ's Blog | 一个Coding爱好者的博客"
         path: "https://ctj12461.netlify.com"
   -
     title: "抓到我"
