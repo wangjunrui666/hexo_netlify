@@ -16,7 +16,7 @@ CodeForces 1109E E. Sasha and a Very Easy Test](https://codeforces.com/problemse
 
 >>洛谷题目链接：[CF1109E Sasha and a Very Easy Test](https://www.luogu.org/problem/CF1109E)
 
-题解原发于[我的blog]()
+题解原发于[我的blog](https://wangjunrui.netlify.com/2019/10/27/cf1109e-sasha-and-a-very-easy-test/)
 
 这是本蒟蒻发的第二篇黑题的题解，很开心。
 
@@ -27,7 +27,7 @@ CodeForces 1109E E. Sasha and a Very Easy Test](https://codeforces.com/problemse
 这不是一道简单的线段树题
 
 ## 考虑直接相除，
-结果```WA```了，这正是此题的难处
+结果$WA$了，这正是此题的难处
 
 ![](https://cdn.luogu.com.cn/upload/image_hosting/utud29xg.png?x-oss-process=image/resize,m_lfit,h_170,w_225)
 
