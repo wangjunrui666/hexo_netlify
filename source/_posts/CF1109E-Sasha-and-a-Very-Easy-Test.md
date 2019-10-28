@@ -11,6 +11,7 @@ tags:
 categories: 线段树
 ---
 
+
 >>codeforce题目链接：[
 CodeForces 1109E E. Sasha and a Very Easy Test](https://codeforces.com/problemset/problem/1109/E)
 
@@ -18,7 +19,7 @@ CodeForces 1109E E. Sasha and a Very Easy Test](https://codeforces.com/problemse
 
 题解原发于[我的blog](https://wangjunrui.netlify.com/2019/10/27/cf1109e-sasha-and-a-very-easy-test/)
 
-这是本蒟蒻发的第二篇黑题的题解，很开心。
+这是本蒟蒻发的第三篇黑题的题解，很开心。
 
 一道很毒瘤的线段树题
 
@@ -50,7 +51,7 @@ CodeForces 1109E E. Sasha and a Very Easy Test](https://codeforces.com/problemse
 $$a^{p-2}\equiv a^{-1}(mod\ p)$$
 
 ### 欧拉定理对于乘法逆元推导(a和p互质):
-$$a^{\varphi(p)-2}\equiv a^{-1}(mod\ p)$$
+$$a^{\varphi(p)-1}\equiv a^{-1}(mod\ p)$$
 其中
 $$\varphi(x)=\prod_{i=1}^{n}\frac{p_i-1}{p_i}$$
 

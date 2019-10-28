@@ -15,6 +15,8 @@ categories: 数论，数学
 
 ## [洛谷翻译网页](https://www.luogu.org/problem/UVA1185)
 
+这是本蒟蒻发的第二篇黑题的题解，很开心。
+
 根据log的定理,$log_n{(x* y)}=log_n{x}+log_n{y}$，且任意一个数x的位数是$log_{10}(x)+1$，所以可以推出
 $$log_{10}(n!)+1=log(\prod_{i=1}^{n}i)+1=\sum_{i=1}^{n} log_{10}i+1 $$
 ```cpp
